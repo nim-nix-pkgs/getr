@@ -11,6 +11,7 @@
   inputs.src-getr-v0_1_1.ref   = "refs/tags/v0.1.1";
   inputs.src-getr-v0_1_1.owner = "jrfondren";
   inputs.src-getr-v0_1_1.repo  = "getr-nim";
+  inputs.src-getr-v0_1_1.dir   = "";
   inputs.src-getr-v0_1_1.type  = "github";
   
   outputs = { self, nixpkgs, flakeNimbleLib, ...}@deps:

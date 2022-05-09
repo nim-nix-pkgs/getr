@@ -7,7 +7,7 @@
   "license": "MIT",
   "web": "https://github.com/jrfondren/getr-nim",
   "refs": [
-    "fatal: unable to access 'https://github.com/jrfondren/getr-nim/': Could not resolve host: github.com",
+    "fatal: unable to access 'https://github.com/jrfondren/getr-nim/': Failed to connect to github.com port 443 after 131238 ms: Connection timed out",
     ""
   ],
   "heads": []

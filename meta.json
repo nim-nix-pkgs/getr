@@ -2,13 +2,80 @@
   "name": "getr",
   "url": "https://github.com/jrfondren/getr-nim",
   "method": "git",
-  "tags": [],
+  "tags": [
+    {
+      "name": "getr",
+      "version": "0.1.1",
+      "author": "Julian Fondren",
+      "desc": "Benchmarking wrapper around getrusage()",
+      "license": "MIT",
+      "skipDirs": [],
+      "skipFiles": [],
+      "skipExt": [
+        "nim"
+      ],
+      "installDirs": [],
+      "installFiles": [],
+      "installExt": [],
+      "requires": [
+        {
+          "name": "nim",
+          "str": ">= 0.19.4",
+          "ver": {
+            "kind": "verEqLater",
+            "ver": "0.19.4"
+          }
+        }
+      ],
+      "bin": [
+        "getr"
+      ],
+      "binDir": "",
+      "srcDir": "src",
+      "backend": "c",
+      "ref": "refs/tags/v0.1.1"
+    }
+  ],
   "description": "Benchmarking wrapper around getrusage()",
   "license": "MIT",
   "web": "https://github.com/jrfondren/getr-nim",
   "refs": [
-    "fatal: unable to access 'https://github.com/jrfondren/getr-nim/': Failed to connect to github.com port 443 after 131238 ms: Connection timed out",
+    "refs/heads/master",
+    "refs/tags/v0.1.1",
     ""
   ],
-  "heads": []
+  "heads": [
+    {
+      "name": "getr",
+      "version": "0.1.1",
+      "author": "Julian Fondren",
+      "desc": "Benchmarking wrapper around getrusage()",
+      "license": "MIT",
+      "skipDirs": [],
+      "skipFiles": [],
+      "skipExt": [
+        "nim"
+      ],
+      "installDirs": [],
+      "installFiles": [],
+      "installExt": [],
+      "requires": [
+        {
+          "name": "nim",
+          "str": ">= 0.19.4",
+          "ver": {
+            "kind": "verEqLater",
+            "ver": "0.19.4"
+          }
+        }
+      ],
+      "bin": [
+        "getr"
+      ],
+      "binDir": "",
+      "srcDir": "src",
+      "backend": "c",
+      "ref": "refs/heads/master"
+    }
+  ]
 }
